@@ -60,7 +60,7 @@ const webpackConfig = {
     rules: [
       { test: /\.flow$/, loader: 'ignore-loader' },
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
         options: {
@@ -74,6 +74,17 @@ const webpackConfig = {
             'babel-plugin-fbt-runtime'
           ]
         }
+      },
+      {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: 'svg-url-loader',
+            options: {
+              limit: 10000,
+            },
+          },
+        ],
       },
       {
         test: /\.mjs$/,

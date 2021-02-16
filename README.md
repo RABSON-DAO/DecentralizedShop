@@ -19,3 +19,4 @@ A decentralized e-commerce store served entirely from IPFS.
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/OriginProtocol/dshop/tree/release)
 
 **Note** The `release` branch will be deployed to Heroku
+# Shop

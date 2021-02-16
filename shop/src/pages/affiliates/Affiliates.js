@@ -55,7 +55,7 @@ const Affiliate = ({ setState, dispatch, affiliate }) => {
         any page on this site and copy the URL, or click any of the “share”
         buttons you see, and your Affiliate code will be embedded.
         <div className="mt-2">
-          You will only earn OGN for purchase made through your Affiliate links
+          You will only earn RBN for purchase made through your Affiliate links
         </div>
       </div>
       {loading ? (
@@ -71,14 +71,14 @@ const Affiliate = ({ setState, dispatch, affiliate }) => {
             <div>{earnings.completedOrders}</div>
           </div>
           <div>
-            <div>Pending OGN</div>
+            <div>Pending RBN</div>
             <div>
               <OgnIcon />
               {earnings.commissionPending}
             </div>
           </div>
           <div>
-            <div>Paid OGN</div>
+            <div>Paid RBN</div>
             <div>
               <OgnIcon />
               {earnings.commissionPaid}

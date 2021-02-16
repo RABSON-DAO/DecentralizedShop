@@ -18,7 +18,7 @@
     "prettier:check": "prettier -c *.js \"**/*.js\"",
     "test": "NODE_ENV=test mocha --timeout 10000 --exit --file test/setup"
   },
-  "author": "Nick Poulden <nick@originprotocol.com>",
+  "author": "Nick Poulden <nick@rabsonprotocol.com>",
   "license": "MIT",
   "dependencies": {
     "@google-cloud/bigquery": "^5.5.0",

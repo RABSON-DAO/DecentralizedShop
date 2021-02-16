@@ -34,10 +34,10 @@ const Footer = () => {
               <a href="#">FAQ</a>
             </li>
             <li className="pb-4 sm:mr-10">
-              <a href="#">About Dshop</a>
+              <a href="#">About Rabson</a>
             </li>
             <li className="pb-4 sm:mr-10">
-              <a href="#">Visit Origin</a>
+              <a href="#">Visit Rabson</a>
             </li>
             <li className="pb-4">
               <a href="#">Support</a>
@@ -45,8 +45,8 @@ const Footer = () => {
           </ul>
         </div>
         <div className="flex flex-col sm:flex-row pb-8 sm:pb-0 justify-center text-secondary">
-          <div className="mr-10">Powered by Origin Dshop</div>
-          <div>© 2020 Origin Protocol</div>
+          <div className="mr-10">Powered by Rabson Dshop</div>
+          <div>© 2021 Rabson Protocol</div>
         </div>
       </div>
     </div>

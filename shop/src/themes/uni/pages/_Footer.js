@@ -8,16 +8,16 @@ const Footer = () => {
       <div>
         <a
           className="hover:opacity-75"
-          target="_blank"
+          //target="_blank"
           rel="noopener noreferrer"
-          href="https://www.originprotocol.com/en/dshop"
+          //href="https://www.originprotocol.com/en/dshop"
         >
-          <fbt desc="footer.poweredBy">Powered by Origin Dshop</fbt>
+          <fbt desc="footer.poweredBy">Rabson</fbt>
         </a>
       </div>
       <div>
         <fbt desc="footer.copyrightText">
-          &copy; <FbtParam name="year">{date.getFullYear()}</FbtParam> Origin
+          &copy; <FbtParam name="year">{date.getFullYear()}</FbtParam> Rabson
           Protocol
         </fbt>
       </div>

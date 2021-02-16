@@ -135,7 +135,7 @@ router.get('/', async (req, res) => {
     const NETWORK = await getNetworkName()
     html = html
       .replace('DATA_DIR', '')
-      .replace('TITLE', 'Origin Dshop')
+      .replace('TITLE', 'RABSON Decentralized Shop')
       .replace(/NETWORK/g, NETWORK)
   }
   res.send(html)
@@ -159,7 +159,7 @@ router.get('/theme/:theme', async (req, res) => {
   const NETWORK = await getNetworkName()
   html = html
     .replace('DATA_DIR', `/${req.query.shop}`)
-    .replace('TITLE', 'Origin Dshop')
+    .replace('TITLE', 'RABSON Decentralized Shop')
     .replace(/NETWORK/g, NETWORK)
     .replace('ENABLE_LIVE_PREVIEW', 'TRUE')
 
