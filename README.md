@@ -20,3 +20,4 @@ A decentralized e-commerce store served entirely from IPFS.
 
 **Note** The `release` branch will be deployed to Heroku
 # Shop
+#gitexp
