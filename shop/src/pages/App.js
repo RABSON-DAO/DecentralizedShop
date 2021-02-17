@@ -82,7 +82,7 @@ const App = ({ location }) => {
       }
     }
     if (document.title === 'TITLE') {
-      document.title = fbt('Origin Dshop', 'OriginDshop')
+      document.title = fbt('Rabson Decentralized Shop', 'RabsonDshop')
     }
   }, [config])
 

@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
         <div className="flex-1 flex justify-end order-3 mt-8 sm:mt-0">
           <fbt desc="footer.copyrightText">
-            &copy; Origin Protocol{' '}
+            &copy; Rabson Protocol{' '}
             <FbtParam name="year">{date.getFullYear()}</FbtParam>
           </fbt>
         </div>
@@ -57,11 +57,11 @@ const Footer = () => {
       <div className="text-gray-600 flex flex-col items-center mt-8">
         <a
           className="order-2 sm:order-1 mt-8 sm:mt-0 hover:opacity-75"
-          target="_blank"
+          //target="_blank"
           rel="noopener noreferrer"
-          href="https://www.originprotocol.com/en/dshop"
+          //href="https://www.originprotocol.com/en/dshop"
         >
-          <fbt desc="footer.poweredBy">Powered by Origin Dshop</fbt>
+          <fbt desc="footer.poweredBy">Rabson</fbt>
         </a>
         <div className="grid gap-2 sm:gap-6 mt-4 order-1 sm:order-2 grid-flow-row sm:grid-flow-col text-center sm:text-left">
           <Link className="hover:opacity-75" to="/about">

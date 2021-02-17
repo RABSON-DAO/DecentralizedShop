@@ -13,18 +13,18 @@ const Footer = () => {
     <div className="footer">
       <div className="container">
         <a
-          target="_blank"
+          //target="_blank"
           rel="noopener noreferrer"
           className="powered-by"
-          href="https://www.originprotocol.com/en/dshop"
+          //href="https://www.rabson.com/en/dshop"
         >
           <fbt desc="footer.poweredBy">
-            Powered by <span>Origin Dshop</span>
+            Powered by <span>Rabson Dshop</span> 
           </fbt>
         </a>
         <div className="copyright">
           <fbt desc="footer.copyrightText">
-            &copy; Origin Protocol{' '}
+            &copy; Rabson{' '}
             <FbtParam name="year">{date.getFullYear()}</FbtParam>.
           </fbt>
         </div>
@@ -43,11 +43,11 @@ const Footer = () => {
               <fbt desc="FAQ">FAQ</fbt>
             </Link>
             <a
-              target="_blank"
+              //target="_blank"
               rel="noopener noreferrer"
-              href="https://medium.com/originprotocol/built-on-origin-a-decentralized-shopify-alternative-888adc4198b0"
+              //href="https://medium.com/rabsonrotocol/built-on-rabson-a-decentralized-shopify-alternative-888adc4198b0"
             >
-              <fbt desc="footer.aboutLink">About Dshop</fbt>
+              <fbt desc="footer.aboutLink">Rabson</fbt>
             </a>
           </div>
         </div>

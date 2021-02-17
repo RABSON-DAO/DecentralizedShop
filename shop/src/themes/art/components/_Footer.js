@@ -35,16 +35,16 @@ const Footer = () => {
         <div className="flex flex-col sm:flex-row justify-between mt-8 text-secondary text-sm">
           <div className="flex flex-col sm:flex-row pb-8 sm:pb-0">
             <a
-              target="_blank"
+              //target="_blank"
               rel="noopener noreferrer"
               className="mr-10"
-              href="https://www.originprotocol.com/en/dshop"
+              //href="https://www.originprotocol.com/en/dshop"
             >
-              <fbt desc="footer.poweredBy">Powered by Origin Dshop</fbt>
+              <fbt desc="footer.poweredBy">Rabson</fbt>
             </a>
             <div>
               <fbt desc="footer.copyrightText">
-                &copy; Origin Protocol{' '}
+                &copy; Rabson Protocol{' '}
                 <FbtParam name="year">{date.getFullYear()}</FbtParam>
               </fbt>
             </div>

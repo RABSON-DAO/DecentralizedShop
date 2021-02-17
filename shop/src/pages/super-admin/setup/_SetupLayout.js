@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { DshopLogoWhite } from 'components/icons/Admin'
+import { DshopLogoWhite } from 'components/icons/Rabson'
 
 const SetupLayout = ({ children }) => {
   return (

@@ -41,7 +41,7 @@ const About = () => {
               <fbt desc="about.aboutSite">
                 This is a decentralized e-commerce site leveraging Ethereum,
                 IPFS and PGP. All content is hosted on IPFS. Payments can be
-                made with ETH, ERC-20 tokens or Credit Card.
+                made with ETH, ERC-20 tokens, Credit Card or Cash On Delivery.
               </fbt>
             </div>
             <div className="question">
@@ -51,12 +51,11 @@ const About = () => {
               <fbt desc="about.builtBy">
                 This site was built by{' '}
                 <FbtParam name="about.originLink">
-                  <a href="https://www.originprotocol.com">Origin Protocol</a>
-                </FbtParam>, whose mission it is to bring about decentralized,
-                peer to peer marketplaces. It is 100% open source and available
-                on{' '}
+                  <a >RABSON</a>
+                </FbtParam>, one of whose missions is to bring about decentralized,
+                peer to peer marketplaces. It is 100% decentralized.{' '}
                 <FbtParam name="about.githubLink">
-                  <a href="https://github.com/OriginProtocol/dshop">GitHub</a>
+                  <a>Rabson protocol</a>
                 </FbtParam>.
               </fbt>
             </div>
@@ -69,8 +68,8 @@ const About = () => {
               <fbt desc="about.dshopLink">
                 Visit{' '}
                 <FbtParam name="email">
-                  <a href="https://dshop.originprotocol.com">
-                    https://dshop.originprotocol.com
+                  <a href="#">
+                    https://dshop.rabsonprotocol.com
                   </a>
                 </FbtParam>{' '}
                 to setup your own store.

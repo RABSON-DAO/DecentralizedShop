@@ -6,10 +6,10 @@ const Privacy = () => {
       Last updated: October 30th, 2019
       <br />
       <br />
-      This privacy policy (&quot;<b>Policy</b>&quot;) describes how Origin
+      This privacy policy (&quot;<b>Policy</b>&quot;) describes how Rabson
       Protocol Labs and its related companies (&quot;<b>Company</b>&quot;)
       collect, use and share personal information of consumer users of this
-      website, originprotocol.com (the &quot;<b>Site</b>&quot;). This Policy
+      website, Rabsonprotocol.com (the &quot;<b>Site</b>&quot;). This Policy
       also applies to any of our other websites that post this Policy. This
       Policy does not apply to websites that post different statements.
       <h4>WHAT WE COLLECT</h4>
@@ -106,7 +106,7 @@ const Privacy = () => {
           </li>
           <li>
             We may share information to protect the rights and property of
-            Origin Protocol Labs., our agents, customers, and others. This
+            Rabson Protocol Labs., our agents, customers, and others. This
             includes enforcing our agreements, policies, and terms of use.
           </li>
           <li>
@@ -141,7 +141,7 @@ const Privacy = () => {
       also contact us at our address:
       <br />
       <br />
-      Origin Protocol Labs
+      Rabson Protocol Labs
       <br />
       P.O. Box 61, Harbour Centre
       <br />
@@ -149,7 +149,7 @@ const Privacy = () => {
       <br />
       Cayman Islands
       <br />
-      Email: support@originprotocol.com
+      Email: support@Rabsonprotocol.com
       <br />
       <br />
       <h4>CHANGES TO THIS PRIVACY POLICY.</h4>

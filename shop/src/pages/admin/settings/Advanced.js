@@ -135,7 +135,7 @@ const AdvancedSettings = () => {
           </label>
           <div className="desc">
             <fbt desc="admin.settings.advanced.errorReportingDesc">
-              Help us improve Origin Dshop’s stability and performance by
+              Help us improve RABSON Dshop’s stability and performance by
               sharing crash reports. If you do not want us to collect this data,
               you can opt out below.
             </fbt>
@@ -151,7 +151,7 @@ const AdvancedSettings = () => {
                 }
               />
               <fbt desc="admin.settings.advanced.sendErrors">
-                Send error reports to Origin
+                Send error reports to RABSON
               </fbt>
             </label>
           </div>
